@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Figma01.SecondPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Margin="120,50,0,0">E-Mail</Label>
+            <Entry Margin="120,0,120,0" />
+            
+            <Label Margin="120,50,0,0">Логин</Label>
+            <Entry Margin="120,0,120,0" />
+
+            <Label  Margin="120,30,0,0">Пароль</Label>
+            <Entry Margin="120,0,120,0" />
+
+            <Label  Margin="120,30,0,0">Пароль</Label>
+            <Entry Margin="120,0,120,0" />
+
+            <Button Text="Зарегаться" x:Name="btnReg" Clicked="btnReg_Clicked" Margin="120,20,120,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
