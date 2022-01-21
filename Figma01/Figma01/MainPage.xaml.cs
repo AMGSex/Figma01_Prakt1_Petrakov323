@@ -14,6 +14,7 @@ namespace Figma01
         {
             InitializeComponent();
             Kartochka.Source = ImageSource.FromResource("Figma01.haip.jpeg");
+            //
         }
 
         private async void btnPasenis_Clicked(object sender, EventArgs e)
